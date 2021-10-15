@@ -51,7 +51,7 @@ const AppState = ({children}) => {
         });
         
         try {
-            const response = await axiosClient.post("api/file", formData);
+            const response = await axiosClient.post("/api/file", formData);
             dispatch({
                 type: UPLOAD_FILE,
                 payload: {
@@ -81,7 +81,7 @@ const AppState = ({children}) => {
         }
 
         try {
-            const response = await axiosClient.post("api/links", data)
+            const response = await axiosClient.post("/api/links", data)
             dispatch({
                 type: CREATE_LINK,
                 payload: response.data.msg
