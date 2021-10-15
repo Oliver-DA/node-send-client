@@ -35,7 +35,7 @@ const Home = () => {
         <>
           <p
             className = "text-center text-2xl mt-10"
-          ><span className = "font-bold text-red-700 text-2xl uppercase">Your url: </span>{`${process.env.frontendURL}links/${url}`}</p>
+          ><span className = "font-bold text-red-700 text-2xl uppercase">Your url: </span>{`${process.env.frontendURL}/links/${url}`}</p>
            <button
               onClick = {handleCopy}
               className = {`${copy ? "bg-gray-900": "bg-pink-600"} w-full py-3 px-5 font-bold rounded-lg mt-10 text-white`}
