@@ -20,7 +20,7 @@ const Home = () => {
   }, []);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(`${process.env.frontendURL}/links/${url}`)
+    navigator.clipboard.writeText(`${process.env.frontendURL}links/${url}`)
     setCopy(true);
 
     setTimeout(() => {
