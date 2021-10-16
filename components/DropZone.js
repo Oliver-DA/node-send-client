@@ -74,7 +74,7 @@ const DropZone = () => {
           ) : (
             <div className="text-center">
               <p className="text-2xl font-bold text-center text-gray-600">
-                Select a file and drag it here
+                Choose a file or drag it here
               </p>
               <button className="bg-pink-600 py-3 px-5 font-bold rounded-lg text-white my-10 hover:bg-pink-700">
                 Choose File
